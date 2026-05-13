@@ -1,0 +1,23 @@
+name: Request Access
+description: Request access to the private source code repository.
+title: "[Request] Access to Source Code - your_username"
+labels: ["access-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in the source code! Please fill out the details below.
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why are you interested in the source code?
+      placeholder: e.g., I want to learn how the economy system is implemented.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Agreement
+      options:
+        - label: I agree to use the source code for educational purposes only and not to redistribute it.
+          required: true

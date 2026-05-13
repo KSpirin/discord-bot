@@ -47,5 +47,14 @@ Includes a standalone script to update your Discord status with custom details a
   - `scripts/`: Management and RPC scripts.
   - `data/`: Persistent storage.
 
+## Source Code Access
+
+The core logic of this bot is maintained in a private repository to protect configuration and sensitive patterns. If you would like to view the source code for educational purposes:
+
+1. Go to the **Issues** tab of this repository.
+2. Click **New Issue**.
+3. Select the **Request Access** template (if available) or simply open a new issue stating your interest.
+4. I will add your GitHub username to the private repository and notify you in the issue.
+
 ---
 *Created as part of a self-learning project.*
