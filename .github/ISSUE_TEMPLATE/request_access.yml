@@ -1,6 +1,6 @@
 name: Request Access
 description: Request access to the private source code repository.
-title: "[Request] Access to Source Code - your_username"
+title: "[Request] Access to Source Code"
 labels: ["access-request"]
 body:
   - type: markdown
